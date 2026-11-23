@@ -1,0 +1,25 @@
+<!doctype html>
+<html lang="ru"><head><meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1,viewport-fit=cover">
+<title>Котельная — дубль (только чтение)</title>
+<meta name="theme-color" content="#f7f7f5">
+<link rel="apple-touch-icon" href="apple-touch-icon.png">
+<link rel="icon" type="image/png" sizes="32x32" href="icon-32.png">
+<link rel="stylesheet" href="style.css?v=6">
+</head><body>
+<div style="background:#3a2a12;color:#ffd479;font:14px/1.4 Arial,sans-serif;text-align:center;padding:8px 12px">ДУБЛЬ (только чтение). Рабочая Котельная — <a href="https://legagibert.ru/teplo/" style="color:#fff">legagibert.ru/teplo</a>. Запись и пересчёт здесь отключены.</div>
+<div id="app">
+  <header class="hd">
+    <div class="hd-row"><h1>♨️ Котельная</h1><div class="hd-right"><span id="updated">загрузка...</span><button id="refreshBtn" class="rbtn" type="button">⟳ Обновить</button></div></div>
+    <nav class="tabs" id="tabs">
+      <button data-tab="main" class="on">Главная</button>
+      <button data-tab="fuel">Уголь</button>
+      <button data-tab="vars">Контроллер</button>
+      <button data-tab="boiler">Котёл</button>
+    </nav>
+  </header>
+  <main id="content"></main>
+  <div class="toast" id="toast"></div>
+</div>
+<script src="app.js?v=19"></script>
+</body></html>
