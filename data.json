@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-11-23 08:30",
+ "generated_at": "2026-11-23 09:00",
  "today": "2026-11-23",
  "weather_today": [
   -4.4,
@@ -106,13 +106,13 @@
  "days_left": 74,
  "bunker": {
   "capacity": 24.0,
-  "level_buckets": 22.0,
+  "level_buckets": 21.9,
   "last_fill_ts": "2026-11-22T16:19",
   "last_fill_buckets": 18.0,
   "left_before": 6.0,
   "estimate": false,
-  "kg": 176,
-  "buckets": 22.0
+  "kg": 175,
+  "buckets": 21.9
  },
  "fact": {
   "periods": [
